@@ -1,1 +1,1 @@
-# advanced-javascript-2020-2021
+# Advanced JavaScript @ FMI / 2020-2021 / 
