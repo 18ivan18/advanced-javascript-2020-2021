@@ -1,0 +1,56 @@
+:root {
+  --widght: 500px;
+  --height: 500px;
+}
+
+body {
+  color: #555;
+  background-color: #5b9eed;
+  font-family: sans-serif;
+}
+
+user-list::part(list-wrapper) {
+  position: absolute;
+  top: 25%;
+  left: calc(50% - 250px);
+  max-width: var(--width);
+  margin: 50px auto;
+}
+
+user-list::part(list) {
+  background: white;
+  border-radius: 2px;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+user-list::part(list-item) {
+  display: flex;
+  margin: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+user-list::part(button) {
+  margin-left: 10px;
+  /* display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s; */
+}
+user-list::part(red) {
+  background-color: red;
+}
+
+user-list::part(green) {
+  background-color: green;
+}
